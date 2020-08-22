@@ -1,0 +1,116 @@
+.pricing {
+    padding-top: 50px;
+    position: relative;
+    
+}
+.pricing-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    span, h3, p {
+        color: $colorWhite;
+        text-align: center;
+    }
+    span {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    
+}
+.pricing-items {
+    .row {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .pricing-item:nth-child(1), .pricing-item:nth-child(2) {
+        margin-right: 10px;
+    }
+    .pricing-item {
+        background-color: $colorWhite;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0px 0px 12px 2px #00000017;
+        img, h3, h4, p {
+            text-align: center;
+        }
+        img {
+            width: 70%;
+            margin: 0px auto 20px auto;
+        }
+        h4 {
+            font-size: 25px;
+        }
+        .price {
+            h3 {
+                font-size: 30px;
+                color: $colorPurple;
+            }
+            p {
+                opacity: .6;
+                font-size: 14px;
+            }
+        }
+        button {
+            width: 160px;
+            margin: 0 auto;
+            border-radius: 10px;
+            padding: 12px 24px;
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.4;
+            background-color: #F2A949;
+            color: #ffffff;
+        }
+    }
+    .pricing-features {
+        margin-top: 20px;
+        .pricing-feature {
+            display: flex;
+        }
+        .pricing-feature-icon {
+            background-image: url("../img/icons/pricing-feature-icon.svg");
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+            background-position: center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+.pricing .pricing-v1-background {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    overflow: hidden;
+    height: 62%;
+    background-color: #574b8a;
+    z-index: -1;
+    img {
+        position: absolute;
+        left: 0%;
+        top: auto;
+        right: 0%;
+        bottom: -2px;
+        z-index: 0;
+        width: 100%;
+    }
+}
+.end-text {
+    width: 100%;
+    margin-top: 50px;
+    p {
+        color: #555;
+        text-align: center;
+    }
+}
