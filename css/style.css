@@ -529,3 +529,66 @@ header .curve {
 .faq-right .faq-text p {
   color: #555;
 }
+
+.testimonials {
+  background-color: #ffffff;
+}
+
+.testimonials-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.testimonials-header p {
+  letter-spacing: 1.2px;
+  color: #00000080;
+  text-transform: uppercase;
+}
+.testimonials-header h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-slider {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.client-slider p {
+  padding: 10px 40px;
+}
+.client-slider span {
+  color: #F2A949;
+  background-color: #ffcc8a50;
+  padding: 3px;
+}
+
+.rating {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.icon-star {
+  background-image: url("../img/star-solid.svg");
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+}

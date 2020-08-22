@@ -1,0 +1,72 @@
+.testimonials {
+    background-color: $colorWhite;
+}
+.testimonials-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    p {
+        letter-spacing: 1.2px;
+        color: #00000080;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+// Slider
+.swiper-container {
+    width: 100%;
+    // height: 100%; 
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.client-slider {
+    display: flex;
+    flex-direction: column;
+    background-color: $colorWhite;
+    p {
+        padding: 10px 40px;
+    }
+    span {
+        color: $colorYellow;
+        background-color: #ffcc8a50;
+        padding: 3px;
+    }
+}
+.rating {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.icon-star {
+    background-image: url("../img/star-solid.svg");
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+
+}
