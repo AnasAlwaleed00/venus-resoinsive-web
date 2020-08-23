@@ -6,11 +6,12 @@
 .trusted-logos {
     .trusted-logo {
         width: 100%;
+        
         img {
-            // height: 70%;
+            filter: grayscale(100%);
             width: 70%;
             cursor: pointer;
-            transition: all .3s linear;
+            transition: all .2s linear;
         }
         img:hover {
             transform: scale(1.2);
@@ -19,7 +20,7 @@
 }
 
 .feature {
-    padding-top: 150px;
+    padding-top: 100px;
         img {
             width: 100%;
         }

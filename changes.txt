@@ -5,3 +5,5 @@
 
 -Improved Nav UI
 -Improved Carousel UI
+
+-The website is now responsive

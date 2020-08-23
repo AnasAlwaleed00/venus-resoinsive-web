@@ -28,18 +28,21 @@ nav .nav-items {
 
 nav .nav-items li {
     list-style: none;
-    padding: 0 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color .7s;
+
 }
 
 nav .nav-items li a {
-    color: $colorBlack;
+    color: #00000099;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
 }
 
-nav .nav-items li a:hover {
-    color: $colorYellow;
+nav .nav-items li:hover {
+    background-color: #5fc47780;
 }
 
 nav form {

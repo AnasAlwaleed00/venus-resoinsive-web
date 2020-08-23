@@ -1573,15 +1573,16 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 75px;
   padding: 0 100px;
   position: sticky;
   top: 0;
   z-index: 2;
+  box-shadow: 0 0 9px 1px #00000060;
 }
 
 nav .logo {
-  color: #fff;
+  color: #5fc477;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
@@ -1595,18 +1596,20 @@ nav .nav-items {
 
 nav .nav-items li {
   list-style: none;
-  padding: 0 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.7s;
 }
 
 nav .nav-items li a {
-  color: #fff;
+  color: #00000099;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
 }
 
-nav .nav-items li a:hover {
-  color: #ff3d00;
+nav .nav-items li:hover {
+  background-color: #5fc47780;
 }
 
 nav form {
@@ -1718,7 +1721,7 @@ nav .search-icon.hide {
 }
 
 nav .logo.space {
-  color: red;
+  color: #5fc477;
   padding: 0 5px 0 0;
 }
 
