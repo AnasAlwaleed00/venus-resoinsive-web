@@ -395,8 +395,7 @@ html {
 }
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    /* max-width: 1140px; */
-    max-width: 1210px;
+    max-width: 1140px;
   }
 }
 .row {
@@ -1569,7 +1568,7 @@ html {
   }
 }
 nav {
-  background: #171c24;
+  background: #ffffff;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

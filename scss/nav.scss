@@ -1,19 +1,20 @@
 
 nav {
-    background: #171c24;
+    background: $colorWhite;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 75px;
     padding: 0 100px;
     position: sticky;
     top: 0;
     z-index: 2;
+    box-shadow: 0 0 9px 1px #00000060;
 }
 
 nav .logo {
-    color: #fff;
+    color: $colorYellow;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -31,14 +32,14 @@ nav .nav-items li {
 }
 
 nav .nav-items li a {
-    color: #fff;
+    color: $colorBlack;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
 }
 
 nav .nav-items li a:hover {
-    color: #ff3d00;
+    color: $colorYellow;
 }
 
 nav form {
@@ -152,7 +153,7 @@ nav .cancel-icon {
 }
 
 nav .logo.space {
-    color: red;
+    color: $colorYellow;
     padding: 0 5px 0 0;
 }
 

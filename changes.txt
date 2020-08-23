@@ -1,2 +1,4 @@
 - Added Footer
 - Changed the container's width
+
+-Improved UI/UX

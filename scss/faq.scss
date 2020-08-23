@@ -1,5 +1,6 @@
 .faq {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .faq-left {
     display: flex;
@@ -19,7 +20,7 @@
 }
 .faq-sticky {
     position: sticky;
-    top: 80px;
+    top: 95px;
 }
 .faq-right {
     display: flex;
@@ -48,4 +49,20 @@
             color: #555;
         }
     }
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+    color: $colorYellow;
+    opacity: .5;
+    transition: all .5s linear;
+    &:hover {
+        opacity: 1;
+    }
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next {
+    right: 0;
 }
