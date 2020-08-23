@@ -1,1 +1,2 @@
-Added Learn Section
+- Added Footer
+- Changed the container's width
