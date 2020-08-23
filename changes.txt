@@ -2,3 +2,6 @@
 - Changed the container's width
 
 -Improved UI/UX
+
+-Improved Nav UI
+-Improved Carousel UI

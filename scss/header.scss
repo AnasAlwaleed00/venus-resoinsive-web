@@ -3,7 +3,7 @@ body {
 }
 header {
     position: relative;
-    background-image: linear-gradient(to bottom, $colorPurpleG1 , $colorPurpleG2);
+    background-image: linear-gradient(to top, $colorPurpleG1 , $colorPurpleG2);
     color: $colorWhite;
     padding-bottom: 40px;
     .header-left, .header-right {

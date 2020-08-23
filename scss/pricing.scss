@@ -117,7 +117,8 @@
     bottom: auto;
     overflow: hidden;
     height: 62%;
-    background-color: #574b8a;
+    // background-color: $colorPurple;
+    background-image: linear-gradient(to top, $colorPurpleG1 , $colorPurpleG2);
     z-index: -1;
     img {
         position: absolute;
