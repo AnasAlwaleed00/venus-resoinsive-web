@@ -12,6 +12,14 @@
     .pricing-item {
       width: 85%;
     }
+    .feature .feature-text {
+      padding-left: 20px !important;
+      text-align: center;
+      align-items: center;
+    }
+    .features-3 .feature-item {
+      align-items: center;
+    }
     
 }
 @media (max-width: 768px) {
@@ -21,6 +29,10 @@
   .feature-item {
     padding-bottom: 20px;
 }
+.features-3 .feature-item {
+  align-items: center;
+}
+
 }
 
 @media (max-width: 992px) {

@@ -86,8 +86,9 @@
             line-height: 1.4;
             background-color: $colorYellow;
             color: #ffffff;
+            transition: all .7s;
             &:hover {
-                background-color: #ffa125;
+                background-color: $colorPurple;
             }
         }
         
