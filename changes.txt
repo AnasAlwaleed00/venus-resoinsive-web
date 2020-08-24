@@ -19,3 +19,9 @@
 -Added Images
 -Added Icons
 -Changed Text
+
+-Compressed Images
+-Improved UI
+
+-Improved Pricing
+-Deleted Unnecessary files

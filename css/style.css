@@ -39,10 +39,6 @@ nav .nav-items li a {
   text-decoration: none;
 }
 
-nav .nav-items li:hover {
-  background-color: #5fc47780;
-}
-
 nav form {
   display: flex;
   height: 40px;
@@ -182,6 +178,7 @@ html {
 
 body {
   background-color: #F3F3F7;
+  position: relative;
 }
 
 header {
