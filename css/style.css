@@ -363,8 +363,22 @@ header .curve {
 .features-3 p {
   color: #555;
 }
+.features-3 .learn-more {
+  display: flex;
+}
 .features-3 .learn-more p {
   color: #13576c;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.features-3 .learn-more img {
+  width: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.features-3 .learn-more:hover img {
+  transform: translate(8px, 0);
 }
 
 .pricing {
@@ -426,9 +440,11 @@ header .curve {
 }
 .pricing-items .pricing-item img {
   width: 70%;
+  height: 130px;
   margin: 0px auto 20px auto;
 }
 .pricing-items .pricing-item h4 {
+  margin-top: 20px;
   font-size: 25px;
 }
 .pricing-items .pricing-item .price h3 {
@@ -528,6 +544,9 @@ header .curve {
   position: sticky;
   top: 95px;
 }
+.faq-sticky img {
+  width: 100px;
+}
 
 .faq-right {
   display: flex;
@@ -626,6 +645,10 @@ header .curve {
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: #13576c;
+}
+.start img {
+  width: 100px;
+  margin: 20px;
 }
 
 .start-text {

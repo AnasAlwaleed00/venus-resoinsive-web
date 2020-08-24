@@ -7,3 +7,7 @@
 -Improved Carousel UI
 
 -The website is now responsive
+
+-Added Animation on Scroll
+-Added Photos
+-Added Icons

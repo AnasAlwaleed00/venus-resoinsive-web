@@ -21,6 +21,9 @@
 .faq-sticky {
     position: sticky;
     top: 95px;
+    img {
+        width: 100px;
+    }
 }
 .faq-right {
     display: flex;

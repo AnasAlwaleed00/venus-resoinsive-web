@@ -103,7 +103,23 @@
     p {
         color: #555;
     }
-    .learn-more p{
-        color: $colorPurple;
+    .learn-more {
+        display: flex;
+        
+         p {
+            color: $colorPurple;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        img {
+            width: 16px;
+            margin-left: 5px;
+            cursor: pointer;
+            transition: all 1s;
+        }
+        &:hover img{
+            transform: translate(8px, 0);
+        }    
     }
+    
 }
