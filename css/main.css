@@ -1576,7 +1576,7 @@ nav {
   height: 75px;
   padding: 0 100px;
   position: sticky;
-  top: 0;
+  top: -2px;
   z-index: 2;
   box-shadow: 0 0 9px 1px #00000060;
 }
@@ -1662,7 +1662,7 @@ nav .cancel-icon {
     height: 100%;
     padding: 10px 50px 0 50px;
     text-align: center;
-    background: #14181f;
+    background: #fff;
     display: inline-block;
     transition: left 0.3s ease;
   }
@@ -1683,6 +1683,9 @@ nav .cancel-icon {
   nav .menu-icon {
     display: block;
   }
+  nav .menu-icon img {
+    width: 75%;
+  }
 
   nav .search-icon,
 nav .menu-icon span {
@@ -1698,6 +1701,10 @@ nav .search-icon.hide {
     display: block;
   }
 }
+.cancel-icon img {
+  width: 75%;
+}
+
 .content {
   position: absolute;
   top: 50%;

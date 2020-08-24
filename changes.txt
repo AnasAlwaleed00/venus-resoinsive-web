@@ -11,3 +11,6 @@
 -Added Animation on Scroll
 -Added Photos
 -Added Icons
+
+-Improved Nav
+-Improved Animation
